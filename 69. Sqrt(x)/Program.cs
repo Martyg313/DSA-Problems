@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //MySqrt(your_input);
+        }
+
+        static private int MySqrt(int x)
+        {
+            double y = 100.0f;
+            for (int i = 0; i < 14; i++)
+            {
+                y = (y + x / y) / 2.0d;
+            }
+            return Convert.ToInt32(Math.Floor(y));
         }
     }
 }

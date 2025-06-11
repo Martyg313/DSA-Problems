@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1009. Complement of Base 10 Integer", "1009. Complement of Base 10 Integer\1009. Complement of Base 10 Integer.csproj", "{53D170B4-003A-4F2F-A13D-5D8A17993ED6}"
 EndProject
@@ -119,8 +119,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "746. Min Cost Climbing Stai
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "441. Arranging Coins", "441. Arranging Coins\441. Arranging Coins.pyproj", "{89758EF9-719B-4BED-BF22-F45783FBA85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "344. Reverse String", "344. Reverse String\344. Reverse String.csproj", "{6CDE810A-6D7C-4444-ABC1-22AEEC7181E6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "509. Fibonacci Number", "509. Fibonacci Number\509. Fibonacci Number.csproj", "{C11DC147-7929-45D1-9D33-892DC6D29CE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1005. Maximize Sum Of Array After K Negations", "1005. Maximize Sum Of Array After K Negations\1005. Maximize Sum Of Array After K Negations.csproj", "{CD572B70-7C90-4FF7-ABDE-3D5A96E40DC6}"
@@ -132,6 +130,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100. Same Tree", "100. Same Tree\100. Same Tree.csproj", "{1F9ECF03-83A4-4C5A-8B13-2EC747D244EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. Swap Nodes in Pairs", "24. Swap Nodes in Pairs\24. Swap Nodes in Pairs.csproj", "{8287FE07-CDF1-41D4-A077-62B01D6B7334}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "344. Reverse String", "344. Reverse String\344. Reverse String.pyproj", "{8D951AB6-090F-4B1A-A2AC-D18E89539F0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -359,10 +359,6 @@ Global
 		{E8948D34-A4DA-47F6-A5EE-36633131E8DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89758EF9-719B-4BED-BF22-F45783FBA85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{89758EF9-719B-4BED-BF22-F45783FBA85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CDE810A-6D7C-4444-ABC1-22AEEC7181E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CDE810A-6D7C-4444-ABC1-22AEEC7181E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CDE810A-6D7C-4444-ABC1-22AEEC7181E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CDE810A-6D7C-4444-ABC1-22AEEC7181E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C11DC147-7929-45D1-9D33-892DC6D29CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C11DC147-7929-45D1-9D33-892DC6D29CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C11DC147-7929-45D1-9D33-892DC6D29CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -383,6 +379,8 @@ Global
 		{8287FE07-CDF1-41D4-A077-62B01D6B7334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8287FE07-CDF1-41D4-A077-62B01D6B7334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8287FE07-CDF1-41D4-A077-62B01D6B7334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D951AB6-090F-4B1A-A2AC-D18E89539F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D951AB6-090F-4B1A-A2AC-D18E89539F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,31 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //DiStringMatch(your_input);
+        }
+
+        static private int[] DiStringMatch(string s)
+        {
+            int[] perm = new int[s.Length + 1];
+
+            int min = 0, max = s.Length;
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i].Equals('I'))
+                {
+                    perm[i] = min;
+                    min++;
+                }
+                else
+                {
+                    perm[i] = max;
+                    max--;
+                }
+            }
+            perm[perm.Length - 1] = min;
+
+            return perm;
         }
     }
 }

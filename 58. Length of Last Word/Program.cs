@@ -4,7 +4,22 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //LengthOfLastWord(your_input);
+        }
+
+        static private int LengthOfLastWord(string s)
+        {
+            s = s.Trim();
+            int count = 0;
+            for (int i = s.Length - 1; i > -1; i--)
+            {
+                if (s[i].Equals(' '))
+                {
+                    return count;
+                }
+                count++;
+            }
+            return count;
         }
     }
 }

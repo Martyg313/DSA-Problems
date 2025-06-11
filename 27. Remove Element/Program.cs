@@ -4,7 +4,23 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //RemoveElement(your_input);
+        }
+
+        static private int RemoveElement(int[] nums, int val)
+        {
+            // Re-ordering non "val" elements
+            int realIndex = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] != val)
+                {
+                    nums[realIndex] = nums[i];
+                    realIndex++;
+                }
+            }
+
+            return realIndex;
         }
     }
 }

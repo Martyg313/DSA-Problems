@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //StrStr(your_input);
+        }
+
+        static private int StrStr(string haystack, string needle)
+        {
+            for (int i = 0; i <= haystack.Length - needle.Length; i++)
+            {
+                if (haystack.Substring(i, needle.Length).Equals(needle))
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
     }
 }

@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //ToLowerCase(your_input);
+        }
+
+        static private string ToLowerCase(string s)
+        {
+            return s.ToLower();
         }
     }
 }

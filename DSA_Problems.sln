@@ -135,6 +135,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "344. Reverse String", "344.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94. Binary Tree Inorder Traversal", "94. Binary Tree Inorder Traversal\94. Binary Tree Inorder Traversal.csproj", "{6144FB9A-0304-4C5E-B35F-EEC26A69C0B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add Two Numbers", "2. Add Two Numbers\2. Add Two Numbers.csproj", "{6B203935-D103-49CE-9074-9F6F49B9C181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -387,6 +389,10 @@ Global
 		{6144FB9A-0304-4C5E-B35F-EEC26A69C0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6144FB9A-0304-4C5E-B35F-EEC26A69C0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6144FB9A-0304-4C5E-B35F-EEC26A69C0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B203935-D103-49CE-9074-9F6F49B9C181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B203935-D103-49CE-9074-9F6F49B9C181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B203935-D103-49CE-9074-9F6F49B9C181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B203935-D103-49CE-9074-9F6F49B9C181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94. Binary Tree Inorder Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add Two Numbers", "2. Add Two Numbers\2. Add Two Numbers.csproj", "{6B203935-D103-49CE-9074-9F6F49B9C181}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "112. Path Sum", "112. Path Sum\112. Path Sum.csproj", "{DD4FFB90-C44B-4C20-96F3-86055FB7E740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{6B203935-D103-49CE-9074-9F6F49B9C181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B203935-D103-49CE-9074-9F6F49B9C181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B203935-D103-49CE-9074-9F6F49B9C181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4FFB90-C44B-4C20-96F3-86055FB7E740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4FFB90-C44B-4C20-96F3-86055FB7E740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4FFB90-C44B-4C20-96F3-86055FB7E740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4FFB90-C44B-4C20-96F3-86055FB7E740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
